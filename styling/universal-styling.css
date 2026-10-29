@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'HeaderFont';
+    src: url('../fonts/atwriter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SubtextFont';
+    src: url('../fonts/Lezerno\ DEMO.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: beige;
+}
+
+header {
+    font-family: 'HeaderFont';
+}
+
+h1 {
+    font-size: 100px;
+    margin-top: 0%;
+    margin-left: 2%;
+}
+
+hr{
+    color: beige;
+}
+
+#home-btn{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'SubtextFont';
+    font-size: 30px;
+    color: beige;
+    transition: color 0.3s ease;
+    margin-top: 2%;
+}
+
+#home-btn:hover{
+    color: rgb(80, 71, 63);
+}
+
+.flex-container-tabs{
+    display: flex;
+    justify-content: center;
+    gap: 290px;
+    font-size: 30px;
+    /* margin-top: 3%; */
+    /* margin-bottom: 3%; */
+}
+
+.tab {
+    text-decoration: none;
+    color: beige;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    margin-top: 2%;
+    font-family: 'HeaderFont';
+
+}
+
+.tab:hover{
+    color: rgb(80, 71, 63);
+}
+
